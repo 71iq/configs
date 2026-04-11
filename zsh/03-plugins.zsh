@@ -1,0 +1,1 @@
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting z colored-man-pages aliases fzf)

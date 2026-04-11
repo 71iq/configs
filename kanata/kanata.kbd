@@ -1,0 +1,33 @@
+(defcfg
+process-unmapped-keys yes
+)
+(defsrc
+a s d f h j k l ;
+caps
+y u i o p
+)
+(defvar
+tap-time 200
+hold-time 120
+hold-time-long 160
+)
+(defalias
+a (multi f24 (tap-hold $tap-time $hold-time-long a lmet))
+s (multi f24 (tap-hold $tap-time $hold-time-long s lalt))
+d (multi f24 (tap-hold $tap-time $hold-time d lsft))
+f (multi f24 (tap-hold $tap-time $hold-time f lctl))
+j (multi f24 (tap-hold $tap-time $hold-time j rctl))
+k (multi f24 (tap-hold $tap-time $hold-time k rsft))
+l (multi f24 (tap-hold $tap-time $hold-time l lalt))
+; (multi f24 (tap-hold $tap-time $hold-time-long ; rmet))
+)
+(deflayer base
+@a @s @d @f _ @j @k @l @;
+(layer-while-held caps-layer)
+  _ _ _ _ _
+)
+(deflayer caps-layer
+_ _ _ _ left down up right _
+_
+home esc bspc del end
+)
