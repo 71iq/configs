@@ -238,6 +238,13 @@ local key_tables = {
    },
 }
 
+for _, binding in ipairs(wezterm.permute_any_or_no_mods({
+   key = 'F24',
+   action = act.Nop,
+})) do
+   table.insert(keys, binding)
+end
+
 local mouse_bindings = {
    -- Ctrl-click will open the link under the mouse cursor
    {

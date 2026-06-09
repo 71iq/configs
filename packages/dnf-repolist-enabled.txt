@@ -1,0 +1,14 @@
+repo id                                                   repo name
+copr:copr.fedorainfracloud.org:atim:starship              Copr repo for starship owned by atim
+copr:copr.fedorainfracloud.org:wezfurlong:wezterm-nightly Copr repo for wezterm-nightly owned by wezfurlong
+copr:copr.fedorainfracloud.org:zeno:scrcpy                Copr repo for scrcpy owned by zeno
+docker-ce-stable                                          Docker CE Stable - x86_64
+fedora                                                    Fedora 44 - x86_64
+fedora-cisco-openh264                                     Fedora 44 openh264 (From Cisco) - x86_64
+google-chrome                                             google-chrome
+nextdns                                                   nextdns
+rpmfusion-free                                            RPM Fusion for Fedora 44 - Free
+rpmfusion-free-updates                                    RPM Fusion for Fedora 44 - Free - Updates
+rpmfusion-nonfree                                         RPM Fusion for Fedora 44 - Nonfree
+rpmfusion-nonfree-updates                                 RPM Fusion for Fedora 44 - Nonfree - Updates
+updates                                                   Fedora 44 - x86_64 - Updates

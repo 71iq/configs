@@ -7,6 +7,8 @@ return {
    audible_bell = 'Disabled',
 
    scrollback_lines = 20000,
+   bidi_enabled = true,
+   bidi_direction = 'LeftToRight',
 
    hyperlink_rules = {
       -- Matches: a URL in parens: (URL)

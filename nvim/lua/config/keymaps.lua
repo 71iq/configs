@@ -8,6 +8,7 @@ map("i", "jk", "<Esc>", { desc = "Escape Insert Mode" })
 map("i", "kj", "<Esc>", { desc = "Escape Insert Mode" })
 
 map({ "n", "v" }, ";", ":", { desc = "Command Mode Shortcut" })
+map("n", "<leader>ua", "<cmd>ArabicToggle<CR>", { desc = "Toggle Arabic Input" })
 
 map("n", "<leader>rc", [[:%s#//.*##<CR>]], { desc = "Remove Double Slash Comments" })
 map("n", "<leader>rl", [[:4,$s/\<long long\>/int/g<CR>]], { desc = "Replace 'long long' with 'int'" })

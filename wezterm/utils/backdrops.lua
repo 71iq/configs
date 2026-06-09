@@ -74,9 +74,14 @@ end
 ---@private
 ---@return table
 function BackDrops:_create_opts()
+   local image = self.images[self.current_idx]
+   if image == nil then
+      return self:_create_focus_opts()
+   end
+
    return {
       {
-         source = { File = self.images[self.current_idx] },
+         source = { File = image },
          horizontal_align = 'Center',
       },
       {

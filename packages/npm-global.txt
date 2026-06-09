@@ -1,0 +1,5 @@
+/usr/local/lib
+├── @google/gemini-cli@0.41.2
+├── @openai/codex@0.137.0
+└── vercel@50.39.0
+

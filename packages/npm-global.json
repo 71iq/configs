@@ -1,0 +1,17 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "@google/gemini-cli": {
+      "version": "0.41.2",
+      "overridden": false
+    },
+    "@openai/codex": {
+      "version": "0.137.0",
+      "overridden": false
+    },
+    "vercel": {
+      "version": "50.39.0",
+      "overridden": false
+    }
+  }
+}
